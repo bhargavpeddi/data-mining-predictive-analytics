@@ -1,0 +1,46 @@
+{
+  "titanic/Logistic Regression": {
+    "C": 0.1
+  },
+  "titanic/Decision Tree": {
+    "max_depth": 8,
+    "min_samples_leaf": 10
+  },
+  "titanic/Random Forest": {
+    "max_depth": null,
+    "min_samples_leaf": 3
+  },
+  "breast_cancer/Logistic Regression": {
+    "C": 1
+  },
+  "breast_cancer/Decision Tree": {
+    "max_depth": 3,
+    "min_samples_leaf": 5
+  },
+  "breast_cancer/Random Forest": {
+    "max_depth": null,
+    "min_samples_leaf": 1
+  },
+  "penguins/Logistic Regression": {
+    "C": 10
+  },
+  "penguins/Decision Tree": {
+    "max_depth": 3,
+    "min_samples_leaf": 1
+  },
+  "penguins/Random Forest": {
+    "max_depth": null,
+    "min_samples_leaf": 1
+  },
+  "diamonds/Linear Regression": {
+    "fit_intercept": true
+  },
+  "diamonds/Decision Tree": {
+    "max_depth": 15,
+    "min_samples_leaf": 5
+  },
+  "diamonds/Random Forest": {
+    "max_depth": null,
+    "min_samples_leaf": 1
+  }
+}

@@ -1,0 +1,13 @@
+dataset,task,model,cv_f1_macro,accuracy,f1_macro,roc_auc,cv_r2,r2,rmse_log,mae_usd,mape_pct
+Titanic survival,classification,Logistic Regression,0.7957,0.8212,0.8054,0.8609,,,,,
+Titanic survival,classification,Decision Tree,0.8065,0.7654,0.7524,0.7948,,,,,
+Titanic survival,classification,Random Forest,0.8140,0.8045,0.7864,0.8375,,,,,
+Breast cancer diagnosis,classification,Logistic Regression,0.9716,0.9649,0.9619,0.9960,,,,,
+Breast cancer diagnosis,classification,Decision Tree,0.9237,0.9123,0.9026,0.9187,,,,,
+Breast cancer diagnosis,classification,Random Forest,0.9574,0.9737,0.9713,0.9944,,,,,
+Penguin species,classification,Logistic Regression,0.9969,1.0000,1.0000,1.0000,,,,,
+Penguin species,classification,Decision Tree,0.9864,1.0000,1.0000,1.0000,,,,,
+Penguin species,classification,Random Forest,0.9921,1.0000,1.0000,1.0000,,,,,
+Diamond price,regression,Linear Regression,,,,,0.9755,0.9831,0.1313,399.9949,10.3259
+Diamond price,regression,Decision Tree,,,,,0.9827,0.9846,0.1255,347.0030,9.3936
+Diamond price,regression,Random Forest,,,,,0.9894,0.9899,0.1017,289.6681,7.4539
